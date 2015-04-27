@@ -8,9 +8,10 @@
     		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Ali Arsalan Kazmi's Personal Page</title>
-		<!-- Using Bootstrap's CSS -->
-    		<link href="css/bootstrap.min.css" rel="stylesheet">
-
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 
 	</head>
@@ -19,18 +20,39 @@
 	<body>
 
 		<div class="container">
-
-			<div class="page-header">
-				<h1>Ali Arsalan Kazmi</h1>
-				<ul class="nav nav-pills pull-right">
- 					<li><a href="#">Bio</a></li>
-  					<li><a href="#">Education</a></li>
-  					<li><a href="#">Work</a></li>
-  					<li><a href="#">Current</a></li>
-				</ul>
-			</div>
-
+			<h1>Ali Arsalan Kazmi</h1>
+  			<ul class="nav nav-pills">
+   				<li class="active"><a data-toggle="pill" href="#about">About</a></li>
+    				<li><a data-toggle="pill" href="#education">Education</a></li>
+    				<li><a data-toggle="pill" href="#work">Work</a></li>
+    				<li><a data-toggle="pill" href="#extras">Extras</a></li>
+				<li><a data-toggle="pill" href="#contact">Contact</a></li>
+  			</ul>
 		</div>
+
+  		<div class="tab-content">
+    			<div id="about" class="tab-pane fade in active">
+      				<h3>About</h3>
+      				<p>This should explain yourself, interests, work - really provide a summary of what is seen at other tabs</p>
+    			</div>
+    			<div id="education" class="tab-pane fade">
+      				<h3>Education</h3>
+      				<p>In chronological order, your qualifications</p>
+    			</div>
+    			<div id="work" class="tab-pane fade">
+      				<h3>Work</h3>
+      				<p>Your work with screen shots, technologies you are able to use, etc.</p>
+    			</div>
+    			<div id="extras" class="tab-pane fade">
+      				<h3>Extras</h3>
+      				<p>This should link to coursera courses, amazon wishlist, online presence, blogs, etc.</p>
+    			</div>
+    			<div id="contact" class="tab-pane fade">
+      				<h3>Contact</h3>
+      				<p>This should lead to a user form for emailing me.</p>
+    			</div>
+  		</div>
+
 
 	</body>
 
