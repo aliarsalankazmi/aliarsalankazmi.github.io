@@ -22,7 +22,7 @@ body div{
 	font-size: medium;
 }
 
-.nav-pills .active a,
+.nav-pills, .nav-pills .active a,
 .nav-pills .active a:hover {
     background-color: green;
 }
