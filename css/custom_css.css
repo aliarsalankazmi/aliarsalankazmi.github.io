@@ -1,0 +1,23 @@
+
+.profile_pic{
+		float: left;
+		padding: 0px 50px 10px 0px;
+}
+
+.tab-content{
+		padding: 0px 50px 0px 110px;
+}
+
+
+.about_details{
+		margin: 0px 0px 0px 0px;
+}
+
+
+body{
+	font-family: "Garamond";
+}
+
+body div{
+	font-size: medium;
+}
